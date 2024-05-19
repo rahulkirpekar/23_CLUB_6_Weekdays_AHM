@@ -1,0 +1,33 @@
+Runtime Polymorphism:-
+-----------------------
+
+
+		Person(getBahave())
+		  |
+  --------------------------------
+  |		  |		|
+School		 Org	    PublicPlace	
+  |		  |		|
+Student		Employee      Citizen
+  |		  |		|
+getBahave()    getBahave()    getBahave()
+
+School s = new School();
+--------------------------------------------------------------------
+
+		RbiBank(getROI()--int--0)
+		  |
+  --------------------------------
+  |		  |		|
+SbiBank		AxisBank     KotakBank	
+getROI()	getROI()     getROI()	
+int--8		int--10	     int--12
+
+
+
+
+
+
+
+
+

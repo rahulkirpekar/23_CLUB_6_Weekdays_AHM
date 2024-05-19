@@ -1,0 +1,73 @@
+		Type of Relation 
+		----------------
+
+	Inheritance
+	   |
+	1) IS-A				2) HAS-A
+	--------			--------
+					   |	
+					   |
+Address is a Employee 		Address has a Employee 
+
+Employee is a Address 		Employee has a Address // true
+
+
+class Address
+{
+	String city,state;
+}
+class Employee 
+{
+	Address a = new Address();
+	int id,salary;
+	main()
+	{
+		Employee e = new Employee();
+
+		e.id
+		e.name
+		e.salary
+		e.a.city			
+
+	}	
+}
+Encapsulation:-
+----------------
+	----> Encapsulation is an object-oriented programming concept that binds together data and methods 
+into a single unit, called a class. 
+In Java, encapsulation is achieved by using private variables and public methods.
+
+
+		1) WEAK				2) STRONG
+		-----------			-----------
+		    |	
+1) Dm's---------private/protected/public	private
+2) Mf's---------private/protected/public	public
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

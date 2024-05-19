@@ -1,0 +1,50 @@
+			  Modifiers
+			  ----------
+				  |
+		--------------------------		  
+	    |						|						
+1) Access Modifiers		2) Non-Access Modifiers
+----------------------		-------------------------
+
+--->private						---> static,abstract,final,strictfp,synchronized
+--->JavaScope(Default scope)	---> transient,volatile
+--->protected
+--->public
+---------------------------------------------------------------------------------------------------------------------
+							1) Access Modifiers:-
+							----------------------
+							
+class Properties = [1) Data Members + 2) Member function + 3) constructor]
+
+-------------------------------------------------------------------------------------------------	
+		  SAME_PACKAGE	 SAME_PACKAGE	 SAME_PACKAGE	OUTSIDE_PACKAGE  OUTSIDE_PACKAGE|
+		  SAME_CLASS	 OTHER_CLASS	  CHILD_CLASS	 OTHER_CLASS      CHILD_CLASS   |
+-------------------------------------------------------------------------------------------------
+private		|   YES		|     NO	|    NO		|     NO	|	NO	|--WITHIN CLASS
+-------------------------------------------------------------------------------------------------
+JavaScope	|			|			|			|			|			|		
+(default)	|   YES		|     YES	|     YES	|    NO		|       NO	|--WITHIN PACKAGE											
+-------------------------------------------------------------------------------------------------
+protected	|   YES		|     YES	|     YES	|    NO		|     YES	|--[WP + OP(IS-A Relation) 
+-------------------------------------------------------------------------------------------------
+public		|   YES		|     YES	|     YES	|    YES 	|     YES	|--can access everywhere
+-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+Polymorphism--Ability to take more than one form(method).
+--------------
+
+		Type of Polymorphism
+		---------------------
+1) CompileTime				2) Runtime
+------------------			------------------
+-->Static Binding			-->Dynamic Binding
+-->Ealry Binding			-->Late Binding
+
+Example:-			Example:-	
+---------			---------
+-->Method Overloadding			--> Method Overridding
+
+Method Overloadding:-
+--------------------
+
+		Type pramotion Rule
+		-------------------
+boolean---X
+
+
+			byte
+			 |
+			short
+			 |
+char------------------->int
+			 |
+			long
+			 |
+			float
+			 |
+			double
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

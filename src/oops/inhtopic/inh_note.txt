@@ -1,0 +1,44 @@
+Inheritance:- Code Reusibility / To reduce code/logic Duplication.
+-------------
+			A(no1)--[Parent/Super/Base]
+			|
+		------------------
+		|		|
+		B(no2)		C(no3)--[Child/Sub/Derived]
+
+-------------------------------------------------------------------------------------
+				Type of Relation
+				---------------------
+					|
+			----------------------------------
+		      |					|
+		1) IS-A Relation		2) HAS-A Relation
+		-----------------		-----------------	
+			|			 				|	
+		Type of Inheritance		   [Aggergation]	
+		---------------------
+			| 	
+		------------------------------------------------------------	
+		    |						   |
+		 [By class]				      [By Interface]	
+		    |						   |
+ -------------------------------------------		   ---------------------
+    |		     |		    |			     |		    |			|
+1) Single	2) MultiLevel	3) Hieerarchical	 4) Multiple 	5) Hybrid
+-------------------------------------------------------------------------------------
+
+
+			A
+		B		C
+
+
+Single Inheritance:-
+-------------------
+
+Person(name)
+  |
+Employee(id,salary)
+  |
+TechEmployee(bonus)
+
+	Employee IS-A Person // true
