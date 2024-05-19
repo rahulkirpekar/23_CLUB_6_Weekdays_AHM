@@ -1,0 +1,48 @@
+Abstrcation:-
+-------------
+
+	1) abstract class		2) interface
+	-------------------		------------------
+
+2) interface:-
+--------------
+
+public abstract interface A
+{
+	// 1) Dm's---[public static final]---constant
+	int no = 10;
+		
+	// 2) abstract methods---[public abstract]
+	void test1();// public abstract 
+
+	// 3) NonAbstract methods
+		
+		---> static method
+		---> default method
+		---> private method
+}
+	
+
+	class		interface		interface
+	 |--extends	  |--implements		   |--extends	
+	class		class			interface
+
+
+		class
+		  |---X--[Not possible in Java]
+		interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
