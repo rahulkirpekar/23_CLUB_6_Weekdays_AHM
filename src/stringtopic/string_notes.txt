@@ -1,0 +1,96 @@
+String--->(Multiple Characters)
+----------------------------------
+String(class)---methods---"String Data operation"
+
+
+		Type of Way to operation on String
+		----------------------------------
+				|
+	---------------------------------------------------
+	|					    |
+1) ImmutableWay					2) MutableWay
+-----------------				-----------------
+===> String(class)			===> StringBuilder(class)
+					===> StringBuffer(class)
+
+************************
+1) ImmutableWay	:-
+************************
+
+String object create:
+======================
+
+	1) By String literalWay [RAM--------"HEAP"---------SCP(String Constant Pool)]  :-
+	--------------------------------------------------------------------------------
+		String name1 = "royal";
+		String name2 = "royal";
+		String name3 = name1;
+		String name4 = "techno";
+
+
+String object Equality:-
+========================
+
+1)  referenceBased(==)				2) valueBased(.equals())
+---------------------				-------------------------
+
+SOP(name1==name2);// true			SOP(name1.equals(name2));// true
+SOP(name1==name3);// true			SOP(name1.equals(name3));// true
+SOP(name1==name4);// false			SOP(name1.equals(name4));// false
+
+
+
+
+
+
+	2) By 'new' Keyword way[RAM--------"HEAP"]:-
+	--------------------------
+		String name1 = new String("royal");
+		String name2 = new String("royal");
+		String name3 = new String("techno");
+		String name4 = name1.concat(name3);
+
+
+String object Equality:-
+========================
+
+1)  referenceBased(==)				2) valueBased(.equals())
+---------------------				-------------------------
+
+SOP(name1==name2);// false			SOP(name1.equals(name2));// true
+SOP(name1==name3);//false			SOP(name1.equals(name3));// false
+SOP(name1==name4);// false			SOP(name1.equals(name4));// false
+
+
+
+	
+--------------------------------------------------------------------------------------------------------------------------
+
+2) MutableWay:-
+---------------
+
+	StringBuffer(synchronized)---Threadsafe---MultiThreadding
+	StringBuilder
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

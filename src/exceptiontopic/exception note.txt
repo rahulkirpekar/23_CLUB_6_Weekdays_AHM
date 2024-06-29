@@ -1,0 +1,95 @@
+Exception:- Abnormal Scenario
+------------
+1)
+	no1 = 20;
+	no2 = 0;
+
+	ans = no1 / no2;// ArithmeticException----devide by zero
+
+2) String name = null;
+
+	SOP(name.length());// NullpointerException
+
+3) int a[] = new int[5];//a[0]..a[4]
+
+	a[5] = 100;// ArrayIndexoutofBoundException
+
+//		 01234
+4) String name ="royal";
+
+SOP(name.charAt(5));// StringindexoutofBoundException
+
+5) String value = "abc";
+
+	    123
+	int no = Integer.parseInt(value);// NumberFormateException
+
+6) 
+		A
+		|
+	-----------------
+	|		|
+	B		C
+
+A  obj = new B();
+
+C c = (C)obj;// ClassCastException 
+
+			Type of Exception
+			------------------
+	1) Checked			2) Unchecked
+	----------------		----------------
+	compiletime			runtime--JVM
+	compiler--compiletime		
+------------------------------------------------------------------------------------------------------
+				Hierarchy of Exception
+				------------------------
+
+				Throwable(c)
+				   |
+				Exception(C)
+				   |
+		-------------------------------------------------
+		|--Checked					        |---Unchecked
+---SQLException						RuntimeException(C)
+---FileNotFoundException					|
+---ClassNotFoundException			---ArithmeticException
+		....						---NullpointerException
+									---ArrayIndexoutofBoundException
+									---StringindexoutofBoundException
+									---NumberFormateException
+									---ClassCastException 
+									....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
