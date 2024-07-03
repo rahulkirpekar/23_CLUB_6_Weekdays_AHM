@@ -71,7 +71,137 @@ C c = (C)obj;// ClassCastException
 
 
 
+finally block:-
+----------------
 
+	try
+	{
+		// raise exception code
+	}catch()
+	{
+		// exception handle	
+	}finally
+	{
+		// code---compulsory...execute
+		// connection [db/socket/file]---closings statements
+	}
+	
+	
+	
+	try
+	{
+		// raise exception code
+	}catch()
+	{
+		// exception handle	
+	}catch()
+	{
+		// exception handle	
+	}finally
+	{
+		// code---compulsory...execute
+		// connection [db/socket/file]---closings statements
+	}
+
+
+
+	try
+	{
+		// raise exception code
+	}finally
+	{
+		// code---compulsory...execute
+		// connection [db/socket/file]---closings statements
+	}
+	
+	
+	try
+	{
+		// raise exception code
+	}catch()
+	{
+		// code---compulsory...execute
+		// connection [db/socket/file]---closings statements
+	}
+---------------------------------------------------------------------------------------------------------------
+	Type of Exception
+	===================
+	
+		1) Checked Exception(CompileTime===>Compiler)
+		2) UnChecked Exception(Runtime====>JVM)
+
+	==> throw
+	==> throws
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	==> custom exception[User Defined Exception]
+	
+	
+		1) Checked Exception(CompileTime===>Compiler)
+		===============================================
+		
+		// InvalidAgeException(msg) ===> Exception(msg) ===> Throwable(msg) ===> SET into ErrorLog
+		
+		public class InvalidAgeException extends Exception
+		{
+			public InvalidAgeException(String msg)
+			{
+				super(msg);
+			}
+		}
+		
+		
+		2) UnChecked Exception(Runtime====>JVM)
+		===============================================
+
+		public class InvalidAgeException extends RuntimeException
+		{
+			public InvalidAgeException(String msg)
+			{
+				super(msg);
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 

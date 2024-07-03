@@ -39,7 +39,6 @@ public class TestApp3
 				e.printStackTrace();
 			}
 			
-			
 			try 
 			{
 				String name = "rahul";
@@ -56,6 +55,9 @@ public class TestApp3
 			} catch (Exception e) 
 			{
 				e.printStackTrace();
+			}finally 
+			{
+				System.out.println("Inner finally block");
 			}
 			
 		}catch(ArithmeticException | NullPointerException | ArrayIndexOutOfBoundsException	e) 
@@ -67,6 +69,9 @@ public class TestApp3
 		{
 			System.out.println("Handled by Exception class");
 			e.printStackTrace();
+		}finally 
+		{
+			System.out.println("Outer finally block");
 		}
 		
 		System.out.println("Addition : " + ans);
