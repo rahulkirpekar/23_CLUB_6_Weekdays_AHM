@@ -135,21 +135,6 @@ finally block:-
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	==> custom exception[User Defined Exception]
 	
 	
@@ -201,7 +186,37 @@ finally block:-
 
 
 
+Method Overrdding :-
+-------------------
+
+class A
+{
+	void test1() 
+	{
 	
+	}
+}
+class B extends A
+{
+	void test1()
+	{
+	
+	}
+}
+------------------------------------------------------------------------------------------	
+Method Overrdding With Exception
+*********************************
+
+If the superclass method does not declare an exception
+	===> subclass overridden method cannot declare the checked exception 
+		but it can declare unchecked exception.
+
+If the superclass method declares an exception
+	===> subclass overridden method can declare same, 
+		subclass exception or 
+		no exception but 
+		cannot declare parent exception.
+
 
 
 
