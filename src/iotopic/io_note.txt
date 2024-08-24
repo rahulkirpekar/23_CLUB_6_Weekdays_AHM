@@ -1,0 +1,55 @@
+I - InputStream(console---read)
+O - OutputStream(console--write)
+-----------------------------
+
+Stream(Buffer Area):-
+------------------------
+		Type of Stream
+		-----------------
+
+      write	      read
+       |		|
+1) OutputStream	2) InputStream	3) ErrorStream--ErrorLog--console
+
+System.err.println("Hello");
+
+
+
+System.out.println("Hello");
+
+		     OutputStream(write)
+	JavaProgram---------------------->console/File/Socket
+
+
+Scanner sc = new Scanner(System.in);
+
+			InputStream(read)   10
+	JavaProgram<----------------------console/File/Socket
+
+Data:-
+------
+	1) Primitive + String		2) object(User Defined DataType)--Student/Product/Employee
+
+
+--------------------			--------------------------
+1) Byteoriented way			2) Character Orientedway
+
+
+-->String Data				-->String Data
+ ----------------			----------------		
+	===> FileOutputStream(write)		===> FileWriter(write)
+	===> FileInputStream(read)		===> FileReader(read)
+
+-->UDF objects
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+Collection Framework:-
+----------------------
+	Array Limitations:-
+	------------------
+			int a[] = new int[5];
+		1) SIZE
+		2) TYPE
+--------------------------------------------------------------------------------------------------------
+			Hierarchy of Collection [java.util.*]
+			------------------------
+			
+				Iterable(I)-------------------------------------------------------
+				   |								|
+				Collection(I)							|
+				   |--Data--value						|[K,V]
+	----------------------------------------------------------				|
+	|			   |				|				|
+      List(I)			 Set(I)			     Queue(I)			       Map(I)
+	|			   |				|				| 
+AbstractList(AC)	      AbstractSet(AC)		AbstractQueue(AC)		   AbstractMap(AC)		
+	|			   |				|				|
+--ArrayList(C)		      --HashSet(C)		--PriorityQueue(C)		   --HashMap(C)
+--LinkedList(C)		      --LinkedHashSet(C)					   --LinkedHashMap(C)
+--Vector(C)		      --TreeSet(C)						   --TreeMap(C)
+
+
+
+
+
+	primitive Datatype   Wrapper Class	 
+		  |	     |			
+		boolean---Boolean
+		byte--Byte
+		char--Character
+		short--Short
+		int--Integer
+		long--Long
+		float-Float	
+		double--Double
+
+
+
+
+Sorting Techniques:-
+------------------
+
+		1) Primitive DataType
+
+			===>Collections.sort(listObj---primitive type data);
+
+		2) Non-Primitive DataType
+
+
+				list---s1,s2,s3,s4,s5
+
+
+1) Comparable(I)				2) Comparator(I)
+-----------------				-----------------	
+   compareTo(Object obj)				compare(Object obj1,Object obj2)
+Student						Student
+	rno						rno
+	name						name
+	std						std
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

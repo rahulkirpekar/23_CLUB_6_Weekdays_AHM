@@ -1,0 +1,54 @@
+Innerclass vs Nested class:-
+----------------------------
+Innerclass:-				Nestedclass:-
+------------				------------
+class A					class A
+{					{
+	// Innerclass				// Innerclass---Nested class
+	class B					static class B	
+	{					{
+		Member Innerclass
+	}					}	
+}					}
+----------------------------------------------------------------------------------------------------------------
+
+Type of Innerclass:-
+-------------------
+1) Member Innerclass
+2) Anonymous Innerclass
+3) Local Innerclass
+4) Nested Innerclass
+
+
+class A
+{
+	private int no;
+	// Innerclass
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
