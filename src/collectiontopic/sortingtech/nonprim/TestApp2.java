@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class TestApp1 
+public class TestApp2 
 {
 	public static void main(String[] args) 
 	{
@@ -33,9 +33,9 @@ public class TestApp1
 		}
 		
 		// sorting in Ascesnding order
-		Collections.sort(list);
+		Collections.sort(list, new StdWiseStudentComparator());
 		
-		System.out.println("After Sorting : "); 
+		System.out.println("After StdWise Sorting : "); 
 		
 		itr =	list.iterator();
 		
@@ -46,6 +46,21 @@ public class TestApp1
 			System.out.println(s.rno+" " + s.name+" " + s.std);
 		}
 		
+		// sorting in Ascesnding order
+		Collections.sort(list, new NameWiseStudentComparator());
+				
+		
+		System.out.println("After NameWise Sorting : "); 
+		
+		itr =	list.iterator();
+		
+		while(itr.hasNext()) 
+		{
+			Student s = itr.next();
+			
+			System.out.println(s.rno+" " + s.name+" " + s.std);
+		}
 		
 	}
+
 }

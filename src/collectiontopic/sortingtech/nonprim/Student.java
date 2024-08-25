@@ -1,6 +1,6 @@
 package collectiontopic.sortingtech.nonprim;
 
-public class Student implements Comparable<Student>
+public class Student //implements Comparable<Student>
 {
 	int rno;
 	String name;
@@ -19,7 +19,7 @@ public class Student implements Comparable<Student>
 		System.out.println(rno+" " + name+ " " + std);
 	}
 	// Define sorting defination---stdwise
-	@Override
+/*	@Override
 	public int compareTo(Student s2) 
 	{
 		if(std > s2.std) 
@@ -35,6 +35,12 @@ public class Student implements Comparable<Student>
 			return 0;
 		}
 	}
+*/
+//	@Override
+//	public int compareTo(Student s2) 
+//	{
+//		return name.compareTo(s2.name);
+//	}
 }
 
 
