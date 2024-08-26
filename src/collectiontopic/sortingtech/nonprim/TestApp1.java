@@ -45,7 +45,5 @@ public class TestApp1
 			
 			System.out.println(s.rno+" " + s.name+" " + s.std);
 		}
-		
-		
 	}
 }
