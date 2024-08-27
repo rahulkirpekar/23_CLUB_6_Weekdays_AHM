@@ -1,0 +1,16 @@
+Thread:- a light weight sub-process.
+-------
+Hardware ---100% utilised
+	Process---sub process--->Thread
+		5 class
+		5 faculties
+----------------------------------------------------------------------------------
+Runnable(run)
+  |
+Thread(run)
+  |
+MyThread1---job---(run())
+			Way to create thread in Java
+			----------------------------
+1) By Thread class		2) By Runnable Interface
+-------------------		------------------------	
