@@ -1,0 +1,72 @@
+-------------------------------------
+JDBC:- Java to Database Connectivity
+-------------------------------------
+
+Java Program--------------->Database
+
+1) URLNAME
+2) DRIVERCLASS
+3) USERNAME
+4) PASSWORD
+
+		Driver.class	   Driver.class
+		  |			 |
+	   mysql-connector.jar	       odbc.jar	
+		  |			 |
+		MySql			oracle
+
+
+
+
+use test;
+show tables;
+
+CREATE TABLE Student
+(
+	rno int AUTO_INCREMENT primary key,
+	name varchar(50),
+	std varchar(50),
+	marks int
+);
+
+
+
+
+
+1) Statement			2) PreparedStatement
+---------------			-----------------------
+executeUpdate()	    		executeUpdate()	    
+executeQuery()			executeQuery()
+
+C--CREATE
+R--READ
+U--UPDATE
+D---DELETE
+	   executeUpdate()	    executeQuery()
+		  |			 |
+		insert			select
+		update
+		delete
+-------------------------------------------------------------------------------------------------------
+
+Dao---Data Access Object
+
+ class
+   |
+StudentDao----->StudentTable
+   |
+insert()
+update()
+delete()
+getAllRecords()
+
+
+
+
+
+
+
+
+
+
+
