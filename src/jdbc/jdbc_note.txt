@@ -68,5 +68,21 @@ getAllRecords()
 
 
 
+CREATE TABLE Student
+(
+	rno int primary key AUTO_INCREMENT,
+	name varchar(50),
+	std varchar(50),
+	marks int
+);
 
 
+
+bean---
+
+	StudentBean---class
+		|
+		--- rno 
+		--- name  
+		--- std  
+		--- marks 
